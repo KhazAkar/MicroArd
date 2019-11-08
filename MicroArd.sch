@@ -144,17 +144,6 @@ F 3 "" H 1700 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1700 1000 1700 1050
-$Comp
-L Device:C C15
-U 1 1 5D740D31
-P 8100 2650
-F 0 "C15" H 8215 2696 50  0000 L CNN
-F 1 "100n" H 8215 2605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8138 2500 50  0001 C CNN
-F 3 "~" H 8100 2650 50  0001 C CNN
-	1    8100 2650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8100 2500 8100 2400
 $Comp
@@ -1295,14 +1284,14 @@ Text Label 1200 2650 0    50   ~ 0
 RCT_D+
 Text Label 1200 2850 0    50   ~ 0
 RCT_D-
-Text Label 2450 2650 2    50   ~ 0
+Text Label 2600 2650 2    50   ~ 0
 D+
-Text Label 2450 2850 2    50   ~ 0
+Text Label 2600 2850 2    50   ~ 0
 D-
 Wire Wire Line
-	2450 2850 2300 2850
+	2600 2850 2300 2850
 Wire Wire Line
-	2450 2650 2300 2650
+	2600 2650 2300 2650
 Wire Wire Line
 	1200 2650 1500 2650
 Wire Wire Line
@@ -1402,4 +1391,15 @@ Wire Wire Line
 	10300 4250 10400 4250
 Wire Wire Line
 	9800 4250 9900 4250
+$Comp
+L Device:C C15
+U 1 1 5D740D31
+P 8100 2650
+F 0 "C15" H 8215 2696 50  0000 L CNN
+F 1 "100n" H 8215 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8138 2500 50  0001 C CNN
+F 3 "~" H 8100 2650 50  0001 C CNN
+	1    8100 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
